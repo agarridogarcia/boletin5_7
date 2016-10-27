@@ -15,7 +15,7 @@ public class Opcion {
         
         System.out.println("cuadrado\n triangulo \n circulo" );   
         String opcion=JOptionPane.showInputDialog("Elixe opción: ");
-        opcion = opcion.toLowerCase();
+        opcion = opcion.toLowerCase();//para pasar todo a minúsculas
         switch(opcion)  {
             
             case "cuadrado":
