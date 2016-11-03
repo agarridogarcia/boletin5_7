@@ -20,12 +20,12 @@ public class Opcion {
             
             case "cuadrado":
                 float lado=Float.parseFloat(JOptionPane.showInputDialog ("Introduzca o lado do cuadrado "));
-                System.out.println( "Area do cuadrado: " + (lado*lado));
+                JOptionPane.showInputDialog("Area do cuadrado: " + (lado*lado));
             break;
             case "triangulo": 
                 float base=Float.parseFloat(JOptionPane.showInputDialog("Introduzca o lado do triángulo: "));
                 float altura=Float.parseFloat(JOptionPane.showInputDialog ("Introduzca a altura do triángulo: "));
-                System.out.println("Area do triangulo: " + (base*altura));
+                JOptionPane.showInputDialog("Area do triangulo: " + (base*altura));
                 break;
             case "circulo": 
                 float radio=Float.parseFloat(JOptionPane.showInputDialog("Introduzca o radio do círculo: "));
