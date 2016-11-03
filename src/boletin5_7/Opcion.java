@@ -29,9 +29,9 @@ public class Opcion {
                 break;
             case "circulo": 
                 float radio=Float.parseFloat(JOptionPane.showInputDialog("Introduzca o radio do círculo: "));
-                System.out.println (Math.PI*Math.pow(radio, 2));
+                JOptionPane.showInputDialog(Math.PI*Math.pow(radio, 2));
                 break;
-                default: System.out.println("Fora de rango");
+                default: JOptionPane.showInputDialog("Fora de rango");
                 
             
             
